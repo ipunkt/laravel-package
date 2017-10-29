@@ -6,6 +6,8 @@ use Illuminate\Support\AggregateServiceProvider;
 
 class LaravelPackageServiceProvider extends AggregateServiceProvider
 {
+    const NAMESPACE = 'my-package';
+
     /**
      * The provider class names.
      *
@@ -16,5 +18,6 @@ class LaravelPackageServiceProvider extends AggregateServiceProvider
         MigrationProvider::class,
         RoutesProvider::class,
         TranslationProvider::class,
+        ViewProvider::class,
     ];
 }

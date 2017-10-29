@@ -6,7 +6,7 @@ use Ipunkt\Laravel\PackageManager\Providers\TranslationServiceProvider;
 
 class TranslationProvider extends TranslationServiceProvider
 {
-    protected $namespace = 'my-package';
+    protected $namespace = LaravelPackageServiceProvider::NAMESPACE;
 
     protected $translationsFolder = 'resources/lang';
 }
