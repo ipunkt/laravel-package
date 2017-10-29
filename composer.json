@@ -4,7 +4,8 @@
 	"type": "library",
 	"require": {
 		"php": ">=7.0.0",
-		"illuminate/support": "^5.5"
+		"illuminate/support": "^5.5",
+		"ipunkt/laravel-package-manager": "^1.0"
 	},
 	"autoload": {
 		"psr-4": {
@@ -29,7 +30,7 @@
 			"dont-discover": [
 			],
 			"providers": [
-				"Ipunkt\\LaravelPackage\\Providers\\LodgeServiceProvider"
+				"Ipunkt\\LaravelPackage\\Providers\\LaravelPackageServiceProvider"
 			],
 			"aliases": {
 			}
