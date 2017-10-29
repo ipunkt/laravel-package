@@ -11,5 +11,7 @@ class LaravelPackageServiceProvider extends AggregateServiceProvider
      *
      * @var array
      */
-    protected $providers = [];
+    protected $providers = [
+        ConfigurationProvider::class,
+    ];
 }
