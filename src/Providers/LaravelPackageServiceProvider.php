@@ -19,5 +19,6 @@ class LaravelPackageServiceProvider extends AggregateServiceProvider
         RoutesProvider::class,
         TranslationProvider::class,
         ViewProvider::class,
+        CommandProvider::class,
     ];
 }
