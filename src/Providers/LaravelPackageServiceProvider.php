@@ -13,5 +13,6 @@ class LaravelPackageServiceProvider extends AggregateServiceProvider
      */
     protected $providers = [
         ConfigurationProvider::class,
+        MigrationProvider::class,
     ];
 }
